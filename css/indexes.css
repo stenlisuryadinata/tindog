@@ -1,0 +1,108 @@
+div {
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+    
+
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: lightgreen;
+}
+
+.lightblue {
+    background-color: lightblue;
+}
+
+.reds {
+    background-color: red;
+    position: absolute;
+}
+
+.greens{
+    background-color: lightgreen;
+    position:absolute;
+}
+
+.lightblues {
+    background-color: lightblue;
+    position: absolute;
+}
+
+
+.pink{
+    background-color: red;
+    
+}
+
+.yellow{
+    background-color: lightgreen;
+    margin-left: 20px;
+    
+    
+    
+}
+
+.blue {
+    background-color: lightblue;
+    margin-left: 40px;
+    
+    
+}
+
+.orange{
+    background-color: red;
+    position: absolute;
+    
+}
+
+.apple{
+    background-color: lightgreen;
+    margin-left: 20px;
+    margin-top: 20px;
+    position: absolute;
+    
+    
+    
+    
+}
+
+.grapes {
+    background-color: lightblue;
+    margin-left: 40px;
+    margin-top: 40px;
+    
+    
+    
+}
+
+.strawberry {
+    background-color: red;
+    position: absolute;
+    z-index: 1;
+    
+}
+
+.melon {
+    background-color: lightgreen;
+    margin-left: 20px;
+    margin-top: 20px;
+    position: absolute;
+    
+    
+    
+    
+}
+
+.mango {
+    background-color: lightblue;
+    margin-left: 40px;
+    margin-top: 40px;
+    
+    
+    
+}

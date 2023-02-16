@@ -1,0 +1,17 @@
+h1 {
+    color: red;
+    color: green;
+}
+
+/* classes has higher priority than selector  */
+/* you can check in chrome developer tools , the one with less priority is ridden by the higher priority */
+
+.title {
+    color: yellow;
+}
+
+/* id has higher priority than classes */
+
+#heading {
+    color: blue;
+}

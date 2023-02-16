@@ -1,0 +1,33 @@
+
+/* @media <type> <feature>  */
+/* @media print {
+    h1 {
+        color: red;
+    }
+
+}
+*/
+
+h1 {
+    font-size: 30px;
+}
+
+/* @media screen (min-width: 900px) */
+
+
+
+@media (max-width: 900px){
+    h1 {
+        font-size: 100px;
+        color:red;
+    }
+}
+
+
+@media (min-width: 900px) and (max-width: 1000px){
+    h2 {
+        font-size: 100px;
+        color:red;
+    }
+}
+

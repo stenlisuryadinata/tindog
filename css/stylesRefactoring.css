@@ -1,0 +1,261 @@
+body {
+    font-family: "Montserrat";
+}
+
+.big-heading {
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 60px;
+    Size: 3.5rem; 
+    line-height: 1.5; 
+
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Container */
+
+.container-fluid {
+    padding: 7% 15%;
+    
+}
+
+/* Sections */
+
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+
+
+}
+
+.white-section {
+    background-color: #fff;
+
+
+
+}
+
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat';
+    font-weight: Bold;
+    
+
+
+}
+
+
+p {
+    color: #8f8f8f;
+}
+
+
+
+/* artificial button inside buton class so it didi not have conflict with bootsrap classes(btn) */
+.download-button {
+    
+
+    margin: 20px 10px;
+}
+
+/* Navigation bar*/
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-left: 30px;
+
+
+}
+
+.nav-item {
+    padding: 0 18px ;
+
+}
+
+.nav-link {
+    font-size:1.2rem;
+    font-family: 'Montserrat';
+}
+
+/*Title-Section */
+
+
+#title .container-fluid {
+    text-align: left;
+    padding: 3% 15% 7% ;
+}
+
+/*Title-image */
+
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position:absolute;
+    left: 15%;
+    
+}
+
+/*features sections */
+#features {
+    
+    position: relative;
+    z-index: 1;
+    
+}
+
+.feature-title {
+    font-size: 1.5rem;
+}
+
+.feature-box {
+    
+    text-align: center;
+    padding: 5%;
+    
+    
+}
+
+.icon { 
+    color:#ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68 ;
+}
+
+/* Testimonial- Section */
+
+#testimonials {
+    /*padding: 7% 15%;*/
+    text-align: center;
+    background-color: #ef8172 ;
+    
+    margin-left: 0;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+
+/* press-section */
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* carousel */
+
+.carousel-item {
+    padding: 7% 15%;
+    
+
+}
+
+.carousel-control-prev {
+    background-color: #ef8172;
+    border: 0px;
+
+}
+
+.carousel-control-next {
+    background-color: #ef8172;
+    border: 0px;
+
+}
+/* Card */
+
+#pricing {
+
+    padding: 100px;
+    text-align: center;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+
+
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.slides {
+    background-color: #ef8172 ;
+}
+
+/* CTA actions */
+
+#cta {
+    text-align: center;
+    
+    font-family: 'Montserrat';
+    
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.download-buttons {
+
+    margin: 50px 10px;
+}
+
+/* Footer section */
+#footer {
+   
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.logo {
+    padding: 5% 3% 5% 3%;
+}
+
+
+
+
+
+@media (max-width: 1028px ){
+
+    #title {
+        text-align: center;
+    }
+
+
+
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+
+}
+
